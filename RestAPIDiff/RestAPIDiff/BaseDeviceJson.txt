@@ -1,0 +1,1375 @@
+﻿[
+  {
+    "device_id": "e91d914b-c90d-4c25-a653-3dc01e37b9d4",
+    "host_name": "SPA",
+    "serial_number": "CK20023600112",
+    "manufacturer": "EMC",
+    "model": "CX700",
+    "last_scan": "27/03/2017 09:42:31",
+    "self": "http://vm-qase3-2k12/API/v1/devices/E91D914B-C90D-4C25-A653-3DC01E37B9D4"
+  },
+  {
+    "device_id": "431940d6-f137-4458-9ce2-7086cb6ef553",
+    "host_name": "VS-C3745",
+    "serial_number": "XXXXXXXXXXX",
+    "manufacturer": "Cisco",
+    "model": "C3745-ADVIPSERVICESK9-M",
+    "last_scan": "27/03/2017 09:42:31",
+    "self": "http://vm-qase3-2k12/API/v1/devices/431940D6-F137-4458-9CE2-7086CB6EF553"
+  },
+  {
+    "device_id": "ecbdd018-38a4-4f04-a133-e5cc8772222d",
+    "host_name": "prod-esxcluster-2.iqdomain.com",
+    "manufacturer": "HP",
+    "model": "ProLiant DL360 G5",
+    "last_scan": "27/03/2017 09:42:32",
+    "self": "http://vm-qase3-2k12/API/v1/devices/ECBDD018-38A4-4F04-A133-E5CC8772222D"
+  },
+  {
+    "device_id": "2a1e6f2d-ba71-45f2-9b3c-dc57e9335885",
+    "host_name": "esx-mgmt1.iqdomain.com",
+    "serial_number": "DLG6Y4J",
+    "manufacturer": "Dell Inc.",
+    "model": "PowerEdge R710",
+    "last_scan": "27/03/2017 09:42:32",
+    "self": "http://vm-qase3-2k12/API/v1/devices/2A1E6F2D-BA71-45F2-9B3C-DC57E9335885"
+  },
+  {
+    "device_id": "026b6ac0-3de6-497f-9103-62a18ac25f94",
+    "host_name": "esx-mgmt2.iqdomain.com",
+    "serial_number": "CLG6Y4J",
+    "manufacturer": "Dell Inc.",
+    "model": "PowerEdge R710",
+    "last_scan": "27/03/2017 09:42:32",
+    "self": "http://vm-qase3-2k12/API/v1/devices/026B6AC0-3DE6-497F-9103-62A18AC25F94"
+  },
+  {
+    "device_id": "6540060b-675f-4497-8992-74483ee04ae7",
+    "host_name": "hp-380g9-1.iqdomain.com",
+    "serial_number": "CZJ6010K86",
+    "manufacturer": "HP",
+    "model": "ProLiant DL380 Gen9",
+    "last_scan": "27/03/2017 09:42:33",
+    "self": "http://vm-qase3-2k12/API/v1/devices/6540060B-675F-4497-8992-74483EE04AE7"
+  },
+  {
+    "device_id": "f3968f9a-417e-4b65-a6f0-0862ae22f000",
+    "host_name": "hp-380g9-2.iqdomain.com",
+    "serial_number": "CZJ6010K85",
+    "manufacturer": "HP",
+    "model": "ProLiant DL380 Gen9",
+    "last_scan": "27/03/2017 09:42:33",
+    "self": "http://vm-qase3-2k12/API/v1/devices/F3968F9A-417E-4B65-A6F0-0862AE22F000"
+  },
+  {
+    "device_id": "e091dd38-3e74-450a-bd81-8ca14d85275a",
+    "host_name": "hp-380g9-3.iqdomain.com",
+    "serial_number": "CZJ6010K87",
+    "manufacturer": "HP",
+    "model": "ProLiant DL380 Gen9",
+    "last_scan": "27/03/2017 09:42:33",
+    "self": "http://vm-qase3-2k12/API/v1/devices/E091DD38-3E74-450A-BD81-8CA14D85275A"
+  },
+  {
+    "device_id": "2dde396e-fb38-4f47-aca5-854ce26f504c",
+    "host_name": "hp-380g9-4.iqdomain.com",
+    "serial_number": "CZJ6010K84",
+    "manufacturer": "HP",
+    "model": "ProLiant DL380 Gen9",
+    "last_scan": "27/03/2017 09:42:34",
+    "self": "http://vm-qase3-2k12/API/v1/devices/2DDE396E-FB38-4F47-ACA5-854CE26F504C"
+  },
+  {
+    "device_id": "b39473df-6398-4176-8344-ba0399ea599c",
+    "host_name": "dev-esxcluster-1.iqdomain.com",
+    "serial_number": "28ZXC2J",
+    "manufacturer": "Dell Inc.",
+    "model": "PowerEdge 1950",
+    "last_scan": "27/03/2017 09:42:34",
+    "self": "http://vm-qase3-2k12/API/v1/devices/B39473DF-6398-4176-8344-BA0399EA599C"
+  },
+  {
+    "device_id": "533fb3a5-7451-4235-aaae-ea7615e10bce",
+    "host_name": "dev-esxcluster-2.iqdomain.com",
+    "serial_number": "1CTWC2J",
+    "manufacturer": "Dell Inc.",
+    "model": "PowerEdge 1950",
+    "last_scan": "27/03/2017 09:42:34",
+    "self": "http://vm-qase3-2k12/API/v1/devices/533FB3A5-7451-4235-AAAE-EA7615E10BCE"
+  },
+  {
+    "device_id": "94caf0cd-b9e2-4d28-b6f8-0fe84a62e18b",
+    "host_name": "qa-esx-a.iqdomain.com",
+    "serial_number": "0123456789",
+    "manufacturer": "Thomas-Krenn.AG",
+    "model": "X9DRW-3LN4F+/X9DRW-3TF+",
+    "last_scan": "27/03/2017 09:42:35",
+    "self": "http://vm-qase3-2k12/API/v1/devices/94CAF0CD-B9E2-4D28-B6F8-0FE84A62E18B"
+  },
+  {
+    "device_id": "5c57818e-4e13-4d01-89ae-d095f6dfd0b3",
+    "host_name": "qa-esxcluster-1.iqdomain.com",
+    "serial_number": "F8ZXC2J",
+    "manufacturer": "Dell Inc.",
+    "model": "PowerEdge 1950",
+    "last_scan": "27/03/2017 09:42:36",
+    "self": "http://vm-qase3-2k12/API/v1/devices/5C57818E-4E13-4D01-89AE-D095F6DFD0B3"
+  },
+  {
+    "device_id": "51dc2790-8b09-4b40-b91e-6cad27032087",
+    "host_name": "qa-esxcluster-2.iqdomain.com",
+    "serial_number": "18ZXC2J",
+    "manufacturer": "Dell Inc.",
+    "model": "PowerEdge 1950",
+    "last_scan": "27/03/2017 09:42:36",
+    "self": "http://vm-qase3-2k12/API/v1/devices/51DC2790-8B09-4B40-B91E-6CAD27032087"
+  },
+  {
+    "device_id": "d6b63449-39aa-4443-921c-88c94c069521",
+    "host_name": "qa-esxcluster-3.iqdomain.com",
+    "serial_number": "H7ZXC2J",
+    "manufacturer": "Dell Inc.",
+    "model": "PowerEdge 1950",
+    "last_scan": "27/03/2017 09:42:37",
+    "self": "http://vm-qase3-2k12/API/v1/devices/D6B63449-39AA-4443-921C-88C94C069521"
+  },
+  {
+    "device_id": "42a5b23e-5877-4109-8ec6-751b2b516ea8",
+    "host_name": "qa-esxcluster-4.iqdomain.com",
+    "serial_number": "C8ZXC2J",
+    "manufacturer": "Dell Inc.",
+    "model": "PowerEdge 1950",
+    "last_scan": "27/03/2017 09:42:37",
+    "self": "http://vm-qase3-2k12/API/v1/devices/42A5B23E-5877-4109-8EC6-751B2B516EA8"
+  },
+  {
+    "device_id": "620e0d0f-cbe3-43e6-8d6c-e2425ef55703",
+    "host_name": "qa-esxcluster-5.iqdomain.com",
+    "serial_number": "98ZXC2J",
+    "manufacturer": "Dell Inc.",
+    "model": "PowerEdge 1950",
+    "last_scan": "27/03/2017 09:42:37",
+    "self": "http://vm-qase3-2k12/API/v1/devices/620E0D0F-CBE3-43E6-8D6C-E2425EF55703"
+  },
+  {
+    "device_id": "61e7f4ef-a15a-4763-9d6d-02f3c6b5e8bd",
+    "host_name": "qa-esxcluster-6.iqdomain.com",
+    "serial_number": "B8ZXC2J",
+    "manufacturer": "Dell Inc.",
+    "model": "PowerEdge 1950",
+    "last_scan": "27/03/2017 09:42:38",
+    "self": "http://vm-qase3-2k12/API/v1/devices/61E7F4EF-A15A-4763-9D6D-02F3C6B5E8BD"
+  },
+  {
+    "device_id": "0361a033-4dee-4ca0-90a8-7d82417bf538",
+    "host_name": "prod-esxcluster-1.iqdomain.com",
+    "serial_number": "CZJ842A0V6",
+    "manufacturer": "HP",
+    "model": "ProLiant DL360 G5",
+    "last_scan": "27/03/2017 09:42:38",
+    "self": "http://vm-qase3-2k12/API/v1/devices/0361A033-4DEE-4CA0-90A8-7D82417BF538"
+  },
+  {
+    "device_id": "64572b8b-83ce-4520-81de-317ed8140191",
+    "host_name": "Solarisv490",
+    "serial_number": "84ad4eee",
+    "manufacturer": "Oracle Corporation  sun4u",
+    "model": "Oracle Corporation  sun4u Sun Fire V490",
+    "last_scan": "27/03/2017 09:43:45",
+    "self": "http://vm-qase3-2k12/API/v1/devices/64572B8B-83CE-4520-81DE-317ED8140191"
+  },
+  {
+    "device_id": "57a1c99a-0b77-4994-b26a-4b8d0dd6f7cd",
+    "host_name": "redhat9VS",
+    "last_scan": "27/03/2017 09:43:59",
+    "self": "http://vm-qase3-2k12/API/v1/devices/57A1C99A-0B77-4994-B26A-4B8D0DD6F7CD"
+  },
+  {
+    "device_id": "e8356d1f-24f8-408f-993f-0a1f525ac9f2",
+    "host_name": "VM-Kerb1-UBU",
+    "serial_number": "VMware-42 27 7a 01 ee f4 a0 79-7b 03 05 3b 78 08 72 8b",
+    "manufacturer": "VMware, Inc.",
+    "model": "VMware Virtual Platform",
+    "last_scan": "27/03/2017 09:44:02",
+    "self": "http://vm-qase3-2k12/API/v1/devices/E8356D1F-24F8-408F-993F-0A1F525AC9F2"
+  },
+  {
+    "device_id": "031ad3ac-05c8-4d76-9679-39ac90e7555b",
+    "host_name": "vm-kerberos-server",
+    "serial_number": "VMware-42 27 19 91 b9 2d 48 5b-d4 b8 34 24 ac 49 47 cd",
+    "manufacturer": "VMware, Inc.",
+    "model": "VMware Virtual Platform",
+    "last_scan": "27/03/2017 09:44:05",
+    "self": "http://vm-qase3-2k12/API/v1/devices/031AD3AC-05C8-4D76-9679-39AC90E7555B"
+  },
+  {
+    "device_id": "2ccfefdc-2a28-47f3-88c4-f5dcafe1e031",
+    "host_name": "VM-WIN-2K12",
+    "serial_number": "VMware-42 14 f6 b9 77 53 dd dc-49 43 c7 7b 6f 50 16 1c",
+    "manufacturer": "VMware, Inc.",
+    "model": "VMware7,1",
+    "last_scan": "27/03/2017 09:44:13",
+    "self": "http://vm-qase3-2k12/API/v1/devices/2CCFEFDC-2A28-47F3-88C4-F5DCAFE1E031"
+  },
+  {
+    "device_id": "8ad378b2-a0fa-41c7-a2da-31c86a50d00f",
+    "host_name": "ibm150",
+    "serial_number": "10CC13D",
+    "manufacturer": "IBM",
+    "model": "7046-B50",
+    "last_scan": "27/03/2017 09:44:16",
+    "self": "http://vm-qase3-2k12/API/v1/devices/8AD378B2-A0FA-41C7-A2DA-31C86A50D00F"
+  },
+  {
+    "device_id": "d320fc90-77c8-4bcd-ba35-f403a5ad9d4a",
+    "host_name": "vm-kerberos-service",
+    "serial_number": "VMware-42 27 3f f2 b8 c4 50 45-67 75 5e ff f5 ef 78 f5",
+    "manufacturer": "VMware, Inc.",
+    "model": "VMware Virtual Platform",
+    "last_scan": "27/03/2017 09:44:32",
+    "self": "http://vm-qase3-2k12/API/v1/devices/D320FC90-77C8-4BCD-BA35-F403A5AD9D4A"
+  },
+  {
+    "device_id": "e81d4cb0-39e4-4410-8659-66ab2e01ffed",
+    "host_name": "hpserver",
+    "serial_number": "DE35000049",
+    "manufacturer": "Hewlett Packard",
+    "model": "ia64 hp server rx2600",
+    "last_scan": "27/03/2017 09:44:45",
+    "self": "http://vm-qase3-2k12/API/v1/devices/E81D4CB0-39E4-4410-8659-66AB2E01FFED"
+  },
+  {
+    "device_id": "b6321c5e-4640-4332-ae38-de368922a666",
+    "host_name": "VM-Solaris-Weblogic",
+    "serial_number": "1ff5b041",
+    "manufacturer": "Oracle Corporation  i86pc",
+    "model": "VMware",
+    "last_scan": "27/03/2017 09:45:38",
+    "self": "http://vm-qase3-2k12/API/v1/devices/B6321C5E-4640-4332-AE38-DE368922A666"
+  },
+  {
+    "device_id": "60e9cda1-adac-46ae-b1f5-ea63b62cbd3a",
+    "host_name": "grid-em",
+    "serial_number": "VMware-56 4d b2 bc b0 28 b0 d6-75 c2 24 62 ee 13 b6 84",
+    "manufacturer": "VMware, Inc.",
+    "model": "VMware Virtual Platform",
+    "last_scan": "27/03/2017 09:46:02",
+    "self": "http://vm-qase3-2k12/API/v1/devices/60E9CDA1-ADAC-46AE-B1F5-EA63B62CBD3A"
+  },
+  {
+    "device_id": "62116546-cad4-4b93-8baf-8b3af423c711",
+    "host_name": "VM-IBM1-2K8",
+    "serial_number": "VMware-42 27 bd 77 ca 11 2d 99-15 9a 1c 93 9a b7 a8 1b",
+    "manufacturer": "VMware, Inc.",
+    "model": "VMware Virtual Platform",
+    "last_scan": "27/03/2017 10:04:37",
+    "self": "http://vm-qase3-2k12/API/v1/devices/62116546-CAD4-4B93-8BAF-8B3AF423C711"
+  },
+  {
+    "device_id": "3aa3d856-9075-4edf-b930-10d9f5311042",
+    "host_name": "solarisv490z1",
+    "serial_number": "84ad4eee",
+    "manufacturer": "Oracle Corporation  sun4u",
+    "model": "SUNW,Sun-Fire-V490",
+    "last_scan": "27/03/2017 09:46:49",
+    "self": "http://vm-qase3-2k12/API/v1/devices/3AA3D856-9075-4EDF-B930-10D9F5311042"
+  },
+  {
+    "device_id": "7b5e9473-bc64-4644-9605-54b91666c57d",
+    "host_name": "solarisv490z2",
+    "serial_number": "84ad4eee",
+    "manufacturer": "Oracle Corporation  sun4u",
+    "model": "SUNW,Sun-Fire-V490",
+    "last_scan": "27/03/2017 09:46:58",
+    "self": "http://vm-qase3-2k12/API/v1/devices/7B5E9473-BC64-4644-9605-54B91666C57D"
+  },
+  {
+    "device_id": "246cc32f-5a41-4a78-9c76-29ee7343f26e",
+    "host_name": "vm-dairis-rh-db2",
+    "serial_number": "VMware-42 27 30 a9 1c 77 e0 4e-61 36 b3 c1 93 5b 27 dc",
+    "manufacturer": "VMware, Inc.",
+    "model": "VMware Virtual Platform",
+    "last_scan": "27/03/2017 09:47:02",
+    "self": "http://vm-qase3-2k12/API/v1/devices/246CC32F-5A41-4A78-9C76-29EE7343F26E"
+  },
+  {
+    "device_id": "0bb0955a-e581-4c52-b93f-5fa1707bf87d",
+    "host_name": "vm-pegasus-f10",
+    "serial_number": "VMware-56 4d e0 07 77 ef 82 a0-8e 32 51 68 f4 d2 70 72",
+    "manufacturer": "VMware, Inc.",
+    "model": "VMware Virtual Platform",
+    "last_scan": "27/03/2017 10:04:37",
+    "self": "http://vm-qase3-2k12/API/v1/devices/0BB0955A-E581-4C52-B93F-5FA1707BF87D"
+  },
+  {
+    "device_id": "2bff6406-be5a-46b3-9bf9-a5e568ff192f",
+    "host_name": "ibm170",
+    "serial_number": "10C2FBF",
+    "manufacturer": "IBM",
+    "model": "7044-170",
+    "last_scan": "27/03/2017 09:47:22",
+    "self": "http://vm-qase3-2k12/API/v1/devices/2BFF6406-BE5A-46B3-9BF9-A5E568FF192F"
+  },
+  {
+    "device_id": "575476ba-72bf-4921-8da2-7723ad45ded0",
+    "host_name": "VM-WEBLOGIC-2K8",
+    "serial_number": "VMware-56 4d be 1a e6 45 77 f4-d2 28 e1 8a 02 6f a4 ab",
+    "manufacturer": "VMware, Inc.",
+    "model": "VMware Virtual Platform",
+    "last_scan": "27/03/2017 10:08:19",
+    "self": "http://vm-qase3-2k12/API/v1/devices/575476BA-72BF-4921-8DA2-7723AD45DED0"
+  },
+  {
+    "device_id": "555273d8-236a-456a-a207-5837f321b4e8",
+    "host_name": "VM-WEBLOGIC-2K3",
+    "serial_number": "VMware-42 07 00 d5 5f c2 25 1a-44 9a 1e fa f2 42 4e 6b",
+    "manufacturer": "VMware, Inc.",
+    "model": "VMware Virtual Platform",
+    "last_scan": "27/03/2017 09:47:34",
+    "self": "http://vm-qase3-2k12/API/v1/devices/555273D8-236A-456A-A207-5837F321B4E8"
+  },
+  {
+    "device_id": "cbf09caf-c1fe-4742-8d7c-a678dfaf7eb6",
+    "host_name": "VM-TCAL-2K8",
+    "serial_number": "VMware-42 07 11 a0 ca 4e ff 78-a9 c5 bd 5d 9e c3 9c 96",
+    "manufacturer": "VMware, Inc.",
+    "model": "VMware Virtual Platform",
+    "last_scan": "27/03/2017 09:47:36",
+    "self": "http://vm-qase3-2k12/API/v1/devices/CBF09CAF-C1FE-4742-8D7C-A678DFAF7EB6"
+  },
+  {
+    "device_id": "c34e4200-d809-4fd2-be62-12b63b6b2402",
+    "host_name": "VM-HYPERV-2K8R2",
+    "serial_number": "5437-2423-3413-5952-7341-3764-48",
+    "manufacturer": "Microsoft Corporation",
+    "model": "Virtual Machine",
+    "last_scan": "27/03/2017 09:48:25",
+    "self": "http://vm-qase3-2k12/API/v1/devices/C34E4200-D809-4FD2-BE62-12B63B6B2402"
+  },
+  {
+    "device_id": "6f2d251a-93b2-489a-92ec-1c4a2b2c4262",
+    "host_name": "VM-ORACLEIAS-WI",
+    "serial_number": "VMware-42 31 e6 9a a0 58 90 6b-14 2f ee 25 b0 dd 52 e3",
+    "manufacturer": "VMware, Inc.",
+    "model": "VMware Virtual Platform",
+    "last_scan": "27/03/2017 09:48:34",
+    "self": "http://vm-qase3-2k12/API/v1/devices/6F2D251A-93B2-489A-92EC-1C4A2B2C4262"
+  },
+  {
+    "device_id": "0f8ffab5-76a7-41de-bf47-12cdfa891b7e",
+    "host_name": "VM-ORAVMM-3-2-1-OL6",
+    "serial_number": "VMware-42 14 de 13 37 7e b0 71-ab b5 22 12 91 89 fd 3b",
+    "manufacturer": "VMware, Inc.",
+    "model": "VMware Virtual Platform",
+    "last_scan": "27/03/2017 09:48:50",
+    "self": "http://vm-qase3-2k12/API/v1/devices/0F8FFAB5-76A7-41DE-BF47-12CDFA891B7E"
+  },
+  {
+    "device_id": "7c697f3d-7824-47eb-8198-639ee75841b4",
+    "host_name": "debian-ha1",
+    "serial_number": "VMware-42 07 df 0a a9 e0 d1 49-a7 2a 1f 29 de 47 b3 66",
+    "manufacturer": "VMware, Inc.",
+    "model": "VMware Virtual Platform",
+    "last_scan": "27/03/2017 10:07:58",
+    "self": "http://vm-qase3-2k12/API/v1/devices/7C697F3D-7824-47EB-8198-639EE75841B4"
+  },
+  {
+    "device_id": "b9b88166-6149-4779-bf38-bb0a83d02edf",
+    "host_name": "VM-INFOSPHERE-2",
+    "serial_number": "VMware-42 07 79 7a 06 f9 de 0e-cf 87 44 42 8f 2e 00 c0",
+    "manufacturer": "VMware, Inc.",
+    "model": "VMware Virtual Platform",
+    "last_scan": "27/03/2017 09:49:47",
+    "self": "http://vm-qase3-2k12/API/v1/devices/B9B88166-6149-4779-BF38-BB0A83D02EDF"
+  },
+  {
+    "device_id": "d51fecc9-a5cb-4cda-af5f-3ee45de4eab1",
+    "host_name": "debian-ha2",
+    "serial_number": "VMware-42 07 be 35 f0 1a 4a 6c-49 46 00 bf 90 e1 b1 a2",
+    "manufacturer": "VMware, Inc.",
+    "model": "VMware Virtual Platform",
+    "last_scan": "27/03/2017 10:07:51",
+    "self": "http://vm-qase3-2k12/API/v1/devices/D51FECC9-A5CB-4CDA-AF5F-3EE45DE4EAB1"
+  },
+  {
+    "device_id": "b81a4a71-94c9-4c14-9d89-79974d6f4631",
+    "host_name": "vm-weblogic-oel5",
+    "serial_number": "VMware-42 07 1f 70 48 e1 59 75-12 25 ca 71 0e 4e 76 af",
+    "manufacturer": "VMware, Inc.",
+    "model": "VMware Virtual Platform",
+    "last_scan": "27/03/2017 09:50:00",
+    "self": "http://vm-qase3-2k12/API/v1/devices/B81A4A71-94C9-4C14-9D89-79974D6F4631"
+  },
+  {
+    "device_id": "44aaa575-d4f0-47f4-afe3-7960b0d06f39",
+    "host_name": "VM-WINSERVER200",
+    "serial_number": "VMware-42 27 f0 dd 7e cb 3c 99-5a 93 6d 75 e9 15 d5 c6",
+    "manufacturer": "VMware, Inc.",
+    "model": "VMware Virtual Platform",
+    "last_scan": "27/03/2017 10:06:39",
+    "self": "http://vm-qase3-2k12/API/v1/devices/44AAA575-D4F0-47F4-AFE3-7960B0D06F39"
+  },
+  {
+    "device_id": "6cc6cfa4-8a4d-4b18-b90d-c4db95eaad4a",
+    "host_name": "VM-WINSERVER200",
+    "serial_number": "VMware-42 27 f0 dd 7e cb 3c 99-5a 93 6d 75 e9 15 d5 c6",
+    "manufacturer": "VMware, Inc.",
+    "model": "VMware Virtual Platform",
+    "last_scan": "27/03/2017 10:07:07",
+    "self": "http://vm-qase3-2k12/API/v1/devices/6CC6CFA4-8A4D-4B18-B90D-C4DB95EAAD4A"
+  },
+  {
+    "device_id": "b8850d1e-c6a1-4296-ad8a-74c33049d2c0",
+    "host_name": "xenserver-pe2970",
+    "serial_number": "9GN813J",
+    "manufacturer": "Dell Inc.",
+    "model": "PowerEdge 2970",
+    "last_scan": "27/03/2017 10:07:27",
+    "self": "http://vm-qase3-2k12/API/v1/devices/B8850D1E-C6A1-4296-AD8A-74C33049D2C0"
+  },
+  {
+    "device_id": "72b78f71-8c19-411b-abd4-86c9944d0ebc",
+    "host_name": "VM-IAS-CENTOS",
+    "serial_number": "VMware-42 07 60 38 37 20 8c ce-aa da 9b 4d 1a 37 b3 45",
+    "manufacturer": "VMware, Inc.",
+    "model": "VMware Virtual Platform",
+    "last_scan": "27/03/2017 10:07:43",
+    "self": "http://vm-qase3-2k12/API/v1/devices/72B78F71-8C19-411B-ABD4-86C9944D0EBC"
+  },
+  {
+    "device_id": "8adf7633-9fe2-4f42-9f1f-6de2d49a93fe",
+    "host_name": "QA-EXCHANGE2010",
+    "manufacturer": "VMware, Inc.",
+    "model": "VMware Virtual Platform",
+    "last_scan": "27/03/2017 10:07:43",
+    "self": "http://vm-qase3-2k12/API/v1/devices/8ADF7633-9FE2-4F42-9F1F-6DE2D49A93FE"
+  },
+  {
+    "device_id": "da7ae45a-7f8d-4b1d-9143-32c4f361cbda",
+    "host_name": "debian-storage",
+    "serial_number": "VMware-42 07 bf e5 ef 28 ff ec-82 61 8e f9 e0 0d ef d1",
+    "manufacturer": "VMware, Inc.",
+    "model": "VMware Virtual Platform",
+    "last_scan": "27/03/2017 10:08:10",
+    "self": "http://vm-qase3-2k12/API/v1/devices/DA7AE45A-7F8D-4B1D-9143-32C4F361CBDA"
+  },
+  {
+    "device_id": "542a4126-a579-4320-8450-0fee80d4065c",
+    "host_name": "vm-suse-sel10",
+    "serial_number": "VMware-42 07 27 0f 4f 7c 82 e2-c0 aa ec 31 5c 50 c4 94",
+    "manufacturer": "VMware, Inc.",
+    "model": "VMware Virtual Platform",
+    "last_scan": "27/03/2017 10:22:48",
+    "self": "http://vm-qase3-2k12/API/v1/devices/542A4126-A579-4320-8450-0FEE80D4065C"
+  },
+  {
+    "device_id": "220d2cff-315c-4280-835a-d916519d76d3",
+    "host_name": "vm-centOS-ora",
+    "serial_number": "VMware-42 1d 52 b6 2d 5c b1 e9-e0 52 3f 10 ba 0c 45 c4",
+    "manufacturer": "VMware, Inc.",
+    "model": "VMware Virtual Platform",
+    "last_scan": "27/03/2017 10:09:28",
+    "self": "http://vm-qase3-2k12/API/v1/devices/220D2CFF-315C-4280-835A-D916519D76D3"
+  },
+  {
+    "device_id": "6af58c3e-ae29-4492-8a4b-ab722c4faf2a",
+    "host_name": "VM-Solaris10-Min",
+    "manufacturer": "Oracle",
+    "model": "",
+    "last_scan": "27/03/2017 10:09:43",
+    "self": "http://vm-qase3-2k12/API/v1/devices/6AF58C3E-AE29-4492-8A4B-AB722C4FAF2A"
+  },
+  {
+    "device_id": "0f03ffde-a2c3-47b8-8acd-99247f226e38",
+    "host_name": "vm-janus-rhel7",
+    "serial_number": "VMware-42 37 18 fa 8b 48 36 d7-27 94 ae 61 44 8d a6 fb",
+    "manufacturer": "VMware, Inc.",
+    "model": "VMware Virtual Platform",
+    "last_scan": "27/03/2017 10:10:57",
+    "self": "http://vm-qase3-2k12/API/v1/devices/0F03FFDE-A2C3-47B8-8ACD-99247F226E38"
+  },
+  {
+    "device_id": "2b321de5-970a-4da6-a86d-2603759ec590",
+    "host_name": "VM-SQL14B-2K12",
+    "serial_number": "VMware-42 27 f3 2e 3b b4 ce be-03 6b de cf c4 eb 73 56",
+    "manufacturer": "VMware, Inc.",
+    "model": "VMware Virtual Platform",
+    "last_scan": "27/03/2017 11:28:59",
+    "self": "http://vm-qase3-2k12/API/v1/devices/2B321DE5-970A-4DA6-A86D-2603759EC590"
+  },
+  {
+    "device_id": "5b49b4bb-4078-4baf-b232-9ea2a7a50a9a",
+    "host_name": "VM-SQL14A-2K12",
+    "serial_number": "VMware-42 27 92 a8 3c 1e a8 44-f8 4f bb 9b 52 ad d1 08",
+    "manufacturer": "VMware, Inc.",
+    "model": "VMware Virtual Platform",
+    "last_scan": "27/03/2017 10:22:57",
+    "self": "http://vm-qase3-2k12/API/v1/devices/5B49B4BB-4078-4BAF-B232-9EA2A7A50A9A"
+  },
+  {
+    "device_id": "2691101a-dcb4-4e34-a87b-525f506fcc2c",
+    "host_name": "ORA-DB-WL-2K3",
+    "serial_number": "YBDJ020733          ",
+    "manufacturer": "FUJITSU SIEMENS",
+    "model": "CELSIUS M/ECONEL",
+    "last_scan": "27/03/2017 10:23:47",
+    "self": "http://vm-qase3-2k12/API/v1/devices/2691101A-DCB4-4E34-A87B-525F506FCC2C"
+  },
+  {
+    "device_id": "3af83c37-2a29-4ea5-b195-3755623c283d",
+    "host_name": "VM-SQL12EX-2K8",
+    "serial_number": "VMware-42 07 85 4f 58 95 4a 2a-1a 03 4b 46 63 a2 28 1e",
+    "manufacturer": "VMware, Inc.",
+    "model": "VMware Virtual Platform",
+    "last_scan": "27/03/2017 10:12:36",
+    "self": "http://vm-qase3-2k12/API/v1/devices/3AF83C37-2A29-4EA5-B195-3755623C283D"
+  },
+  {
+    "device_id": "42ec6a76-5e11-450b-b5a9-65724503093e",
+    "host_name": "VM-SP-2K8",
+    "serial_number": "VMware-42 07 89 b1 02 7d ac b0-c0 21 2f 5a 52 17 7a 98",
+    "manufacturer": "VMware, Inc.",
+    "model": "VMware Virtual Platform",
+    "last_scan": "27/03/2017 10:33:13",
+    "self": "http://vm-qase3-2k12/API/v1/devices/42EC6A76-5E11-450B-B5A9-65724503093E"
+  },
+  {
+    "device_id": "27751ec3-c121-4ee8-933a-8981f8f9c29c",
+    "host_name": "vm-oic-centos",
+    "serial_number": "VMware-42 14 19 58 f8 d0 ed 52-79 d7 c7 d3 ed 01 ad 8f",
+    "manufacturer": "VMware, Inc.",
+    "model": "VMware Virtual Platform",
+    "last_scan": "27/03/2017 10:23:26",
+    "self": "http://vm-qase3-2k12/API/v1/devices/27751EC3-C121-4EE8-933A-8981F8F9C29C"
+  },
+  {
+    "device_id": "92074ed0-51d9-4427-b5c3-df9d6911cad9",
+    "host_name": "DEV-DB-1",
+    "serial_number": "CSV2V2J",
+    "manufacturer": "Dell Inc.",
+    "model": "PowerEdge SC1435",
+    "last_scan": "27/03/2017 10:17:14",
+    "self": "http://vm-qase3-2k12/API/v1/devices/92074ED0-51D9-4427-B5C3-DF9D6911CAD9"
+  },
+  {
+    "device_id": "fa9a930e-dad5-4463-ba79-83615b832565",
+    "host_name": "VM-DAIRIS2-CENTOS",
+    "serial_number": "VMware-42 27 53 02 bc 52 b3 08-60 8b ad aa 63 0b 05 7f",
+    "manufacturer": "VMware, Inc.",
+    "model": "VMware Virtual Platform",
+    "last_scan": "27/03/2017 10:20:10",
+    "self": "http://vm-qase3-2k12/API/v1/devices/FA9A930E-DAD5-4463-BA79-83615B832565"
+  },
+  {
+    "device_id": "8d7aa3cf-0af1-4a03-acc9-f438dc841520",
+    "host_name": "VM-DAIRIS-RH6",
+    "serial_number": "VMware-42 27 4e 6a 5f 10 cf 15-af 8e d3 92 25 0b a8 91",
+    "manufacturer": "VMware, Inc.",
+    "model": "VMware Virtual Platform",
+    "last_scan": "27/03/2017 10:21:22",
+    "self": "http://vm-qase3-2k12/API/v1/devices/8D7AA3CF-0AF1-4A03-ACC9-F438DC841520"
+  },
+  {
+    "device_id": "2aab24b8-3cce-434e-957b-e0b57ea89162",
+    "host_name": "VM-DAIRIS-2K8B",
+    "manufacturer": "VMware, Inc.",
+    "model": "VMware Virtual Platform",
+    "last_scan": "27/03/2017 10:24:10",
+    "self": "http://vm-qase3-2k12/API/v1/devices/2AAB24B8-3CCE-434E-957B-E0B57EA89162"
+  },
+  {
+    "device_id": "d5259da4-e48a-41c9-9e41-d1b75fdfce25",
+    "host_name": "VM-WIN7-ULT",
+    "manufacturer": "VMware, Inc.",
+    "model": "VMware Virtual Platform",
+    "last_scan": "27/03/2017 10:27:24",
+    "self": "http://vm-qase3-2k12/API/v1/devices/D5259DA4-E48A-41C9-9E41-D1B75FDFCE25"
+  },
+  {
+    "device_id": "934d2e68-1bb3-4a15-aac7-65c43e1862c3",
+    "host_name": "VM-QALAB2-2K3",
+    "serial_number": "VMware-42 07 67 de ee 49 14 ca-db 0b 86 88 d3 bc de d9",
+    "manufacturer": "VMware, Inc.",
+    "model": "VMware Virtual Platform",
+    "last_scan": "27/03/2017 10:30:49",
+    "self": "http://vm-qase3-2k12/API/v1/devices/934D2E68-1BB3-4A15-AAC7-65C43E1862C3"
+  },
+  {
+    "device_id": "9b45ce75-4fd2-42d7-bc54-d23e52cdcaab",
+    "host_name": "VM-WIN2K8-DATA",
+    "manufacturer": "VMware, Inc.",
+    "model": "VMware Virtual Platform",
+    "last_scan": "27/03/2017 10:27:54",
+    "self": "http://vm-qase3-2k12/API/v1/devices/9B45CE75-4FD2-42D7-BC54-D23E52CDCAAB"
+  },
+  {
+    "device_id": "66c43a49-8475-401a-90c1-b556cbbb0aee",
+    "host_name": "VM-WIN2K8X64-HP",
+    "manufacturer": "VMware, Inc.",
+    "model": "VMware Virtual Platform",
+    "last_scan": "27/03/2017 10:27:59",
+    "self": "http://vm-qase3-2k12/API/v1/devices/66C43A49-8475-401A-90C1-B556CBBB0AEE"
+  },
+  {
+    "device_id": "4959b363-d21b-457e-8c34-3d566464bc54",
+    "host_name": "VM-DAIRIS-2K8C",
+    "serial_number": "VMware-42 27 bf 89 ec f8 e1 55-ab 98 cc 03 13 69 22 11",
+    "manufacturer": "VMware, Inc.",
+    "model": "VMware Virtual Platform",
+    "last_scan": "27/03/2017 10:28:13",
+    "self": "http://vm-qase3-2k12/API/v1/devices/4959B363-D21B-457E-8C34-3D566464BC54"
+  },
+  {
+    "device_id": "19862cd0-ae5e-4627-a602-6d7b2e7c0861",
+    "host_name": "VM-RDPGW-2K8",
+    "serial_number": "VMware-42 27 11 7b b6 10 a9 4d-9f 4e ae d5 36 5d 2b 7f",
+    "manufacturer": "VMware, Inc.",
+    "model": "VMware Virtual Platform",
+    "last_scan": "27/03/2017 10:28:20",
+    "self": "http://vm-qase3-2k12/API/v1/devices/19862CD0-AE5E-4627-A602-6D7B2E7C0861"
+  },
+  {
+    "device_id": "ae00ea19-9716-41a4-bbb8-ffac148fc7cf",
+    "host_name": "VM-CITRIX-2K3",
+    "serial_number": "VMware-42 07 f2 ff 68 6a 90 98-23 43 54 d7 7c 67 db 6b",
+    "manufacturer": "VMware, Inc.",
+    "model": "VMware Virtual Platform",
+    "last_scan": "27/03/2017 10:28:52",
+    "self": "http://vm-qase3-2k12/API/v1/devices/AE00EA19-9716-41A4-BBB8-FFAC148FC7CF"
+  },
+  {
+    "device_id": "274ad536-c95f-421f-b7a3-31c160f19477",
+    "host_name": "VM-WIN7PRORU",
+    "serial_number": "VMware-42 27 73 57 2d 8c 93 74-a1 8a fe 02 f2 e8 40 23",
+    "manufacturer": "VMware, Inc.",
+    "model": "VMware Virtual Platform",
+    "last_scan": "27/03/2017 10:28:57",
+    "self": "http://vm-qase3-2k12/API/v1/devices/274AD536-C95F-421F-B7A3-31C160F19477"
+  },
+  {
+    "device_id": "52f1faad-229b-44e3-9108-119694f56dad",
+    "host_name": "VM2K3R264ENTSP1",
+    "serial_number": "VMware-42 27 c8 ab 27 bd ad 76-af ad e6 53 50 1d 64 c9",
+    "manufacturer": "VMware, Inc.",
+    "model": "VMware Virtual Platform",
+    "last_scan": "27/03/2017 10:28:54",
+    "self": "http://vm-qase3-2k12/API/v1/devices/52F1FAAD-229B-44E3-9108-119694F56DAD"
+  },
+  {
+    "device_id": "11a34dac-cca0-4da7-bd5a-77cc67c8a6c5",
+    "host_name": "VM-2K3R232STDRT",
+    "serial_number": "VMware-42 27 63 c6 dc 9e c1 9f-f6 69 41 97 90 5a d3 05",
+    "manufacturer": "VMware, Inc.",
+    "model": "VMware Virtual Platform",
+    "last_scan": "27/03/2017 10:28:56",
+    "self": "http://vm-qase3-2k12/API/v1/devices/11A34DAC-CCA0-4DA7-BD5A-77CC67C8A6C5"
+  },
+  {
+    "device_id": "5d167933-d4e4-4d3f-93ce-23125b29ac2c",
+    "host_name": "VM2K3R232STD2P2",
+    "serial_number": "VMware-42 27 e2 1e d9 25 a8 f8-cb b2 ed 27 ae 0d 23 28",
+    "manufacturer": "VMware, Inc.",
+    "model": "VMware Virtual Platform",
+    "last_scan": "27/03/2017 11:48:59",
+    "self": "http://vm-qase3-2k12/API/v1/devices/5D167933-D4E4-4D3F-93CE-23125B29AC2C"
+  },
+  {
+    "device_id": "8df48903-f601-4cd3-84cc-f2f4477e68e3",
+    "host_name": "WIN-2008-R2-XEN",
+    "serial_number": "abca87a5-7e6b-2a16-a785-53d27d8b51f5",
+    "manufacturer": "Xen",
+    "model": "HVM domU",
+    "last_scan": "27/03/2017 10:29:02",
+    "self": "http://vm-qase3-2k12/API/v1/devices/8DF48903-F601-4CD3-84CC-F2F4477E68E3"
+  },
+  {
+    "device_id": "7833183d-5287-4b08-bec0-888de6d32dce",
+    "host_name": "VM-WIN2K3X64-ST",
+    "serial_number": "VMware-42 27 11 47 13 53 8a 29-16 a4 d5 cc c0 78 ef 39",
+    "manufacturer": "VMware, Inc.",
+    "model": "VMware Virtual Platform",
+    "last_scan": "27/03/2017 10:28:57",
+    "self": "http://vm-qase3-2k12/API/v1/devices/7833183D-5287-4B08-BEC0-888DE6D32DCE"
+  },
+  {
+    "device_id": "6721f1f3-3088-4c9d-b798-26f5cee9a8be",
+    "host_name": "VM-WIN7ULTUKR",
+    "serial_number": "VMware-42 27 e0 1f be 98 67 25-e4 7f 35 a5 8c 04 d3 0c",
+    "manufacturer": "VMware, Inc.",
+    "model": "VMware Virtual Platform",
+    "last_scan": "27/03/2017 10:29:07",
+    "self": "http://vm-qase3-2k12/API/v1/devices/6721F1F3-3088-4C9D-B798-26F5CEE9A8BE"
+  },
+  {
+    "device_id": "929fdaef-9f0d-426e-a94e-5b338236b429",
+    "host_name": "VM-WIN2K3-WEB",
+    "serial_number": "VMware-42 1d 76 c8 72 29 0d e7-59 4d c0 2e c0 e6 f5 82",
+    "manufacturer": "VMware, Inc.",
+    "model": "VMware Virtual Platform",
+    "last_scan": "27/03/2017 10:29:01",
+    "self": "http://vm-qase3-2k12/API/v1/devices/929FDAEF-9F0D-426E-A94E-5B338236B429"
+  },
+  {
+    "device_id": "6a98aa7f-22d7-40d5-a405-547519adb492",
+    "host_name": "VM-WIN2K3-STD",
+    "serial_number": "VMware-42 27 b0 a0 6d ae e8 96-46 a1 73 f8 ce b0 20 73",
+    "manufacturer": "VMware, Inc.",
+    "model": "VMware Virtual Platform",
+    "last_scan": "27/03/2017 10:29:19",
+    "self": "http://vm-qase3-2k12/API/v1/devices/6A98AA7F-22D7-40D5-A405-547519ADB492"
+  },
+  {
+    "device_id": "fffc0499-7ce0-4a8c-8c26-663e9f8e9c99",
+    "host_name": "VM-WIN2K3-ENT",
+    "serial_number": "VMware-42 27 9e 4a 73 75 26 57-7c 6f 82 98 33 34 9f 28",
+    "manufacturer": "VMware, Inc.",
+    "model": "VMware Virtual Platform",
+    "last_scan": "27/03/2017 10:29:24",
+    "self": "http://vm-qase3-2k12/API/v1/devices/FFFC0499-7CE0-4A8C-8C26-663E9F8E9C99"
+  },
+  {
+    "device_id": "a676d914-7b37-4a57-b0e1-760acf4879f4",
+    "host_name": "VM-2K3R232ENT",
+    "serial_number": "VMware-42 27 44 dd fd cd 2e 96-b0 ba 05 98 32 91 cd 31",
+    "manufacturer": "VMware, Inc.",
+    "model": "VMware Virtual Platform",
+    "last_scan": "27/03/2017 10:29:27",
+    "self": "http://vm-qase3-2k12/API/v1/devices/A676D914-7B37-4A57-B0E1-760ACF4879F4"
+  },
+  {
+    "device_id": "1e817404-1f0c-4655-aea2-f8f083061cf2",
+    "host_name": "VM-WIN7PROSP1CN",
+    "serial_number": "VMware-42 27 7e 4f 10 3c 83 2c-cd 96 e5 67 74 1e cc 75",
+    "manufacturer": "VMware, Inc.",
+    "model": "VMware Virtual Platform",
+    "last_scan": "27/03/2017 10:29:34",
+    "self": "http://vm-qase3-2k12/API/v1/devices/1E817404-1F0C-4655-AEA2-F8F083061CF2"
+  },
+  {
+    "device_id": "9a6aebfe-4575-4ccd-9400-f4ddd68ba5b5",
+    "host_name": "VM-2K8WEBSP2",
+    "serial_number": "VMware-42 27 29 65 c3 18 c0 84-40 de 97 b0 d1 fd 01 b8",
+    "manufacturer": "VMware, Inc.",
+    "model": "VMware Virtual Platform",
+    "last_scan": "27/03/2017 10:29:34",
+    "self": "http://vm-qase3-2k12/API/v1/devices/9A6AEBFE-4575-4CCD-9400-F4DDD68BA5B5"
+  },
+  {
+    "device_id": "8ddc5664-f53a-42ee-848d-17ec8f59f8b6",
+    "host_name": "VM-ORADM-2K8",
+    "serial_number": "VMware-42 07 10 a4 f2 09 ba 1a-ff ae 08 9a e7 6b c1 69",
+    "manufacturer": "VMware, Inc.",
+    "model": "VMware Virtual Platform",
+    "last_scan": "27/03/2017 10:38:19",
+    "self": "http://vm-qase3-2k12/API/v1/devices/8DDC5664-F53A-42EE-848D-17EC8F59F8B6"
+  },
+  {
+    "device_id": "92bb43c0-245b-472e-b411-60f80bf7d9c0",
+    "host_name": "VM-2K12FND",
+    "serial_number": "VMware-42 27 00 2c f7 4f bc d5-e7 60 84 b7 7d 33 bd 6a",
+    "manufacturer": "VMware, Inc.",
+    "model": "VMware Virtual Platform",
+    "last_scan": "27/03/2017 10:29:44",
+    "self": "http://vm-qase3-2k12/API/v1/devices/92BB43C0-245B-472E-B411-60F80BF7D9C0"
+  },
+  {
+    "device_id": "759108d0-ce3c-4959-8c88-0ba4ee1f98c4",
+    "host_name": "VM-SQL2012-CLU2",
+    "serial_number": "VMware-42 31 97 96 ab 84 7d 25-7c b6 25 fc b3 23 50 98",
+    "manufacturer": "VMware, Inc.",
+    "model": "VMware Virtual Platform",
+    "last_scan": "27/03/2017 10:29:46",
+    "self": "http://vm-qase3-2k12/API/v1/devices/759108D0-CE3C-4959-8C88-0BA4EE1F98C4"
+  },
+  {
+    "device_id": "6d57751f-a591-4334-bc4a-9a6927be775d",
+    "host_name": "VM-WIN7-ENT",
+    "serial_number": "VMware-42 27 6c 5d a6 e5 7f f2-c8 86 62 d6 7d 92 d2 08",
+    "manufacturer": "VMware, Inc.",
+    "model": "VMware Virtual Platform",
+    "last_scan": "27/03/2017 10:30:16",
+    "self": "http://vm-qase3-2k12/API/v1/devices/6D57751F-A591-4334-BC4A-9A6927BE775D"
+  },
+  {
+    "device_id": "b3adecc0-861b-485c-b247-d00679f7eca2",
+    "host_name": "VM-2K12R2FND",
+    "serial_number": "VMware-42 27 52 bf fb e8 82 c0-d2 bc 30 99 4e 9e 68 75",
+    "manufacturer": "VMware, Inc.",
+    "model": "VMware Virtual Platform",
+    "last_scan": "27/03/2017 10:29:46",
+    "self": "http://vm-qase3-2k12/API/v1/devices/B3ADECC0-861B-485C-B247-D00679F7ECA2"
+  },
+  {
+    "device_id": "3b78d13a-4125-48f8-93e9-0a48e983e0d3",
+    "host_name": "VM-EXCHANGE-2K3",
+    "serial_number": "VMware-42 07 c5 d6 77 ec 2a 0a-2e 39 9e 43 d2 91 01 ee",
+    "manufacturer": "VMware, Inc.",
+    "model": "VMware Virtual Platform",
+    "last_scan": "27/03/2017 10:29:57",
+    "self": "http://vm-qase3-2k12/API/v1/devices/3B78D13A-4125-48F8-93E9-0A48E983E0D3"
+  },
+  {
+    "device_id": "5d347337-b7fc-4e32-811e-d22b3aa9a9d2",
+    "host_name": "VM-2K3R232ENSP2",
+    "serial_number": "VMware-42 27 5b 48 df 44 52 ae-57 4f 60 90 f4 30 58 ed",
+    "manufacturer": "VMware, Inc.",
+    "model": "VMware Virtual Platform",
+    "last_scan": "27/03/2017 10:30:11",
+    "self": "http://vm-qase3-2k12/API/v1/devices/5D347337-B7FC-4E32-811E-D22B3AA9A9D2"
+  },
+  {
+    "device_id": "6d16cbd2-4a46-4ef5-b166-1d22fd0acf38",
+    "host_name": "VM-WIN-VISTA-UL",
+    "manufacturer": "VMware, Inc.",
+    "model": "VMware Virtual Platform",
+    "last_scan": "27/03/2017 10:29:47",
+    "self": "http://vm-qase3-2k12/API/v1/devices/6D16CBD2-4A46-4EF5-B166-1D22FD0ACF38"
+  },
+  {
+    "device_id": "ce896217-d840-471e-a154-3a711d480674",
+    "host_name": "IPPHONE",
+    "last_scan": "27/03/2017 10:29:49",
+    "self": "http://vm-qase3-2k12/API/v1/devices/CE896217-D840-471E-A154-3A711D480674"
+  },
+  {
+    "device_id": "f45216fa-0419-4b97-9482-b9534c65bc46",
+    "host_name": "VM-WIN-WIN8PRO",
+    "manufacturer": "VMware, Inc.",
+    "model": "VMware Virtual Platform",
+    "last_scan": "27/03/2017 10:29:54",
+    "self": "http://vm-qase3-2k12/API/v1/devices/F45216FA-0419-4B97-9482-B9534C65BC46"
+  },
+  {
+    "device_id": "b43cfb15-8658-4866-9ed1-a983c8c14bcb",
+    "host_name": "VS-2K3",
+    "serial_number": "CZ1740003U      ",
+    "manufacturer": "HP",
+    "model": "ProLiant DL320 G5 ",
+    "last_scan": "27/03/2017 10:30:35",
+    "self": "http://vm-qase3-2k12/API/v1/devices/B43CFB15-8658-4866-9ED1-A983C8C14BCB"
+  },
+  {
+    "device_id": "8c964396-2d7e-4b5d-be70-35f9f822f84e",
+    "host_name": "VM-WINVISTA-ENT",
+    "manufacturer": "VMware, Inc.",
+    "model": "VMware Virtual Platform",
+    "last_scan": "27/03/2017 10:30:05",
+    "self": "http://vm-qase3-2k12/API/v1/devices/8C964396-2D7E-4B5D-BE70-35F9F822F84E"
+  },
+  {
+    "device_id": "6a932e20-b447-462e-bad8-a8f6cfd394f6",
+    "host_name": "VM-OVM-SERVER2",
+    "serial_number": "VMware-42 27 b2 27 a7 11 56 d2-23 16 83 57 67 e4 23 ef",
+    "manufacturer": "VMware, Inc.",
+    "model": "VMware Virtual Platform",
+    "last_scan": "27/03/2017 10:30:51",
+    "self": "http://vm-qase3-2k12/API/v1/devices/6A932E20-B447-462E-BAD8-A8F6CFD394F6"
+  },
+  {
+    "device_id": "b540012c-9539-4e71-b044-d9b93523b22b",
+    "host_name": "TWILIGHT",
+    "serial_number": "83946546",
+    "manufacturer": "Sun Microsystems  sun4u",
+    "model": "SUNW,UltraAX-i2",
+    "last_scan": "27/03/2017 10:31:22",
+    "self": "http://vm-qase3-2k12/API/v1/devices/B540012C-9539-4E71-B044-D9B93523B22B"
+  },
+  {
+    "device_id": "fee7cc37-69ba-416e-9f1f-bac6fedc6aff",
+    "host_name": "VM-WIN7-PRO",
+    "serial_number": "VMware-42 27 8e 09 18 79 fb 59-24 78 d5 ed a5 d8 f2 12",
+    "manufacturer": "VMware, Inc.",
+    "model": "VMware Virtual Platform",
+    "last_scan": "27/03/2017 10:33:08",
+    "self": "http://vm-qase3-2k12/API/v1/devices/FEE7CC37-69BA-416E-9F1F-BAC6FEDC6AFF"
+  },
+  {
+    "device_id": "9c2ed1d0-6c51-4b39-b44d-9484f213464d",
+    "host_name": "IQSOL10",
+    "serial_number": "83946546",
+    "manufacturer": "Sun Microsystems  sun4u",
+    "model": "Sun Microsystems  sun4u Sun Fire V100",
+    "last_scan": "27/03/2017 10:31:29",
+    "self": "http://vm-qase3-2k12/API/v1/devices/9C2ED1D0-6C51-4B39-B44D-9484F213464D"
+  },
+  {
+    "device_id": "72fab20e-37e3-4c58-947e-92f0a1669910",
+    "host_name": "vm-rac2-centos",
+    "serial_number": "VMware-42 27 52 50 77 de 34 03-f8 7e d4 d2 52 f8 f0 51",
+    "manufacturer": "VMware, Inc.",
+    "model": "VMware Virtual Platform",
+    "last_scan": "27/03/2017 10:42:19",
+    "self": "http://vm-qase3-2k12/API/v1/devices/72FAB20E-37E3-4C58-947E-92F0A1669910"
+  },
+  {
+    "device_id": "ae923254-924d-41cb-9326-e8cda6f8c43d",
+    "host_name": "VM-SQL2K-2K",
+    "serial_number": "VMware-56 4d ee 74 8f 75 ff 90-b7 d2 75 9f 94 b1 07 27",
+    "manufacturer": "VMware, Inc.",
+    "model": "VMware Virtual Platform",
+    "last_scan": "27/03/2017 10:30:29",
+    "self": "http://vm-qase3-2k12/API/v1/devices/AE923254-924D-41CB-9326-E8CDA6F8C43D"
+  },
+  {
+    "device_id": "ea10642a-7751-45b9-bb86-6b9e2cf6ce73",
+    "host_name": "VM-VSPHERE-2K8",
+    "serial_number": "VMware-42 14 b9 5d 97 52 47 8c-0c 7a bf 4e d2 b9 2e d0",
+    "manufacturer": "VMware, Inc.",
+    "model": "VMware Virtual Platform",
+    "last_scan": "27/03/2017 10:44:56",
+    "self": "http://vm-qase3-2k12/API/v1/devices/EA10642A-7751-45B9-BB86-6B9E2CF6CE73"
+  },
+  {
+    "device_id": "8ca74fd1-9324-4533-8e30-3d6a9dbe9a9e",
+    "host_name": "vm-cntst-rh",
+    "serial_number": "VMware-42 27 00 c4 1c 3a de 04-34 86 f9 a8 cb 42 e6 90",
+    "manufacturer": "VMware, Inc.",
+    "model": "VMware Virtual Platform",
+    "last_scan": "27/03/2017 10:31:19",
+    "self": "http://vm-qase3-2k12/API/v1/devices/8CA74FD1-9324-4533-8E30-3D6A9DBE9A9E"
+  },
+  {
+    "device_id": "cd6f55cc-8899-420c-ac93-9d3f385d71fe",
+    "host_name": "vm-informix-rhel",
+    "serial_number": "VMware-42 27 9d c9 8b a5 e7 39-87 5f 93 ae 01 68 08 d7",
+    "manufacturer": "VMware, Inc.",
+    "model": "VMware Virtual Platform",
+    "last_scan": "27/03/2017 10:31:42",
+    "self": "http://vm-qase3-2k12/API/v1/devices/CD6F55CC-8899-420C-AC93-9D3F385D71FE"
+  },
+  {
+    "device_id": "5ae962fa-d493-4140-acc5-2af8c1b0176b",
+    "host_name": "vm-rac1-centos",
+    "serial_number": "VMware-42 27 34 55 d9 7f 16 dd-6b 2a 02 38 2a 40 75 34",
+    "manufacturer": "VMware, Inc.",
+    "model": "VMware Virtual Platform",
+    "last_scan": "27/03/2017 10:42:22",
+    "self": "http://vm-qase3-2k12/API/v1/devices/5AE962FA-D493-4140-ACC5-2AF8C1B0176B"
+  },
+  {
+    "device_id": "ab89782f-a6af-4721-80b3-e99ecfe12185",
+    "host_name": "VM-WIN-WINXPPRO",
+    "serial_number": "VMware-42 27 4c eb 49 dc d1 12-ce 9e 35 03 af 4a 7c 5a",
+    "manufacturer": "VMware, Inc.",
+    "model": "VMware Virtual Platform",
+    "last_scan": "27/03/2017 10:30:44",
+    "self": "http://vm-qase3-2k12/API/v1/devices/AB89782F-A6AF-4721-80B3-E99ECFE12185"
+  },
+  {
+    "device_id": "6797142c-a742-406b-88ed-ede78be2c8be",
+    "host_name": "VM-SHAREPOINT-2",
+    "serial_number": "VMware-42 07 b5 65 5c f4 8c 55-39 53 35 bf 79 a5 23 ae",
+    "manufacturer": "VMware, Inc.",
+    "model": "VMware Virtual Platform",
+    "last_scan": "27/03/2017 10:30:52",
+    "self": "http://vm-qase3-2k12/API/v1/devices/6797142C-A742-406B-88ED-EDE78BE2C8BE"
+  },
+  {
+    "device_id": "80b34040-cb75-436c-a561-f76bb292eeeb",
+    "host_name": "vm-oradm-oel5",
+    "serial_number": "VMware-42 07 d2 00 7a eb 44 1a-28 cc 66 74 64 94 7c 9a",
+    "manufacturer": "VMware, Inc.",
+    "model": "VMware Virtual Platform",
+    "last_scan": "27/03/2017 10:31:51",
+    "self": "http://vm-qase3-2k12/API/v1/devices/80B34040-CB75-436C-A561-F76BB292EEEB"
+  },
+  {
+    "device_id": "a218b3ea-5adf-4369-a68d-4e4ffd6b3ed6",
+    "host_name": "vm-wsmq-rhl",
+    "serial_number": "VMware-42 07 21 9e f5 f3 a8 c5-c5 26 fe a0 76 ed c2 e8",
+    "manufacturer": "VMware, Inc.",
+    "model": "VMware Virtual Platform",
+    "last_scan": "27/03/2017 10:31:44",
+    "self": "http://vm-qase3-2k12/API/v1/devices/A218B3EA-5ADF-4369-A68D-4E4FFD6B3ED6"
+  },
+  {
+    "device_id": "74366513-0ac0-45d7-a371-95783174c788",
+    "host_name": "VM-SHAREPOINT2-",
+    "serial_number": "VMware-42 07 7a 0d 0a 68 0b e4-ab 33 39 f9 7d a7 84 29",
+    "manufacturer": "VMware, Inc.",
+    "model": "VMware Virtual Platform",
+    "last_scan": "27/03/2017 10:31:19",
+    "self": "http://vm-qase3-2k12/API/v1/devices/74366513-0AC0-45D7-A371-95783174C788"
+  },
+  {
+    "device_id": "e6becf9d-deee-4d63-af74-36be75785fc1",
+    "host_name": "vm-nfs-cos",
+    "serial_number": "VMware-42 1d c4 80 dd 4d 89 a0-07 9e c7 64 ef 91 c4 09",
+    "manufacturer": "VMware, Inc.",
+    "model": "VMware Virtual Platform",
+    "last_scan": "27/03/2017 10:44:57",
+    "self": "http://vm-qase3-2k12/API/v1/devices/E6BECF9D-DEEE-4D63-AF74-36BE75785FC1"
+  },
+  {
+    "device_id": "3684752c-75b7-4b77-8325-0ee00ce12b21",
+    "host_name": "vm-ovm-manager",
+    "serial_number": "VMware-42 27 fc 25 94 1e e2 e8-07 f4 68 3e 76 c2 fb 42",
+    "manufacturer": "VMware, Inc.",
+    "model": "VMware Virtual Platform",
+    "last_scan": "27/03/2017 10:44:57",
+    "self": "http://vm-qase3-2k12/API/v1/devices/3684752C-75B7-4B77-8325-0EE00CE12B21"
+  },
+  {
+    "device_id": "c551610d-fd51-4070-bdd8-a23e4fbfb182",
+    "host_name": "VM-GNS3",
+    "serial_number": "VMware-42 1d 56 d7 08 79 5f 71-76 ef 00 ed 0b 0c d8 59",
+    "manufacturer": "VMware, Inc.",
+    "model": "VMware Virtual Platform",
+    "last_scan": "27/03/2017 10:44:58",
+    "self": "http://vm-qase3-2k12/API/v1/devices/C551610D-FD51-4070-BDD8-A23E4FBFB182"
+  },
+  {
+    "device_id": "ebd943c9-f190-4ce0-b22e-b93de23e5ec2",
+    "host_name": "VM-JANUS-RHEL7-SEL",
+    "serial_number": "VMware-42 27 1d 34 ce 63 8b cc-79 91 64 99 fe 28 50 26",
+    "manufacturer": "VMware, Inc.",
+    "model": "VMware Virtual Platform",
+    "last_scan": "27/03/2017 10:32:19",
+    "self": "http://vm-qase3-2k12/API/v1/devices/EBD943C9-F190-4CE0-B22E-B93DE23E5EC2"
+  },
+  {
+    "device_id": "cd3b1a47-22ab-4b5e-923b-61063c74be3d",
+    "host_name": "vm-redmond-ovm",
+    "serial_number": "0004fb00-0006-0000-49b2-72ac036ed96d",
+    "manufacturer": "Xen",
+    "model": "HVM domU",
+    "last_scan": "27/03/2017 10:31:45",
+    "self": "http://vm-qase3-2k12/API/v1/devices/CD3B1A47-22AB-4B5E-923B-61063C74BE3D"
+  },
+  {
+    "device_id": "adc1cd4f-6295-40bd-ac25-d43eb8758d73",
+    "host_name": "192.168.5.14",
+    "serial_number": "VMware-42 1d 45 3e e3 da a5 0f-97 f6 8d b8 0c ce 59 45",
+    "manufacturer": "VMware, Inc.",
+    "model": "VMware Virtual Platform",
+    "last_scan": "27/03/2017 10:44:58",
+    "self": "http://vm-qase3-2k12/API/v1/devices/ADC1CD4F-6295-40BD-AC25-D43EB8758D73"
+  },
+  {
+    "device_id": "95f7ce2c-46c2-446f-b6b5-960c5f8e1df9",
+    "host_name": "192.168.5.15",
+    "serial_number": "VMware-42 1d 1b 4e 48 e2 51 2f-28 f0 f4 e2 ec cf 7b 1e",
+    "manufacturer": "VMware, Inc.",
+    "model": "VMware Virtual Platform",
+    "last_scan": "27/03/2017 10:44:59",
+    "self": "http://vm-qase3-2k12/API/v1/devices/95F7CE2C-46C2-446F-B6B5-960C5F8E1DF9"
+  },
+  {
+    "device_id": "948bc33e-91a4-4a10-bf5d-0935df90a19c",
+    "host_name": "VM-ORA12C-WS12",
+    "serial_number": "VMware-42 1d 05 fb 82 79 5a e9-50 48 b7 69 78 05 9d 1f",
+    "manufacturer": "VMware, Inc.",
+    "model": "VMware Virtual Platform",
+    "last_scan": "27/03/2017 10:44:59",
+    "self": "http://vm-qase3-2k12/API/v1/devices/948BC33E-91A4-4A10-BF5D-0935DF90A19C"
+  },
+  {
+    "device_id": "abe2b67d-2c1f-4c37-ae2c-e07be26d6995",
+    "host_name": "VM-SQL14B-2K12",
+    "model": "VMware Virtual Platform",
+    "last_scan": "27/03/2017 10:45:00",
+    "self": "http://vm-qase3-2k12/API/v1/devices/ABE2B67D-2C1F-4C37-AE2C-E07BE26D6995"
+  },
+  {
+    "device_id": "70bfa546-d2ea-4635-a6e6-741904fa4474",
+    "host_name": "QALABSERVER",
+    "serial_number": "VMware-42 07 ff 7b ab 55 a9 c6-69 ec 7d 6f 53 89 71 22",
+    "manufacturer": "VMware, Inc.",
+    "model": "VMware Virtual Platform",
+    "last_scan": "27/03/2017 10:45:00",
+    "self": "http://vm-qase3-2k12/API/v1/devices/70BFA546-D2EA-4635-A6E6-741904FA4474"
+  },
+  {
+    "device_id": "623e8cc5-3194-4e6a-a84b-8fc9d227267e",
+    "host_name": "VM-WBLSQL-2012",
+    "manufacturer": "VMware, Inc.",
+    "model": "VMware Virtual Platform",
+    "last_scan": "27/03/2017 10:45:00",
+    "self": "http://vm-qase3-2k12/API/v1/devices/623E8CC5-3194-4E6A-A84B-8FC9D227267E"
+  },
+  {
+    "device_id": "1f7f0449-649e-4e54-9ead-8a15a269e5f1",
+    "host_name": "vm-ubu-proxy",
+    "serial_number": "VMware-42 1d a2 16 a2 2a f0 17-65 04 5d 67 ce 0b 83 eb",
+    "manufacturer": "VMware, Inc.",
+    "model": "VMware Virtual Platform",
+    "last_scan": "27/03/2017 10:45:01",
+    "self": "http://vm-qase3-2k12/API/v1/devices/1F7F0449-649E-4E54-9EAD-8A15A269E5F1"
+  },
+  {
+    "device_id": "c20f13e8-4ff8-4ec0-8319-67d564e142ef",
+    "host_name": "dockerhost1",
+    "serial_number": "VMware-42 37 92 c5 b2 4a 0e 79-eb 5f d4 d2 5c 28 d4 65",
+    "manufacturer": "VMware, Inc.",
+    "model": "VMware Virtual Platform",
+    "last_scan": "27/03/2017 10:45:01",
+    "self": "http://vm-qase3-2k12/API/v1/devices/C20F13E8-4FF8-4EC0-8319-67D564E142EF"
+  },
+  {
+    "device_id": "dd4b693a-0cc6-430d-8d07-4111b37e9104",
+    "host_name": "VM-ORA-DEBIAN",
+    "serial_number": "VMware-42 27 c6 a6 28 ec 2a 48-60 7c 4b 3e 04 82 27 11",
+    "manufacturer": "VMware, Inc.",
+    "model": "VMware Virtual Platform",
+    "last_scan": "27/03/2017 10:45:01",
+    "self": "http://vm-qase3-2k12/API/v1/devices/DD4B693A-0CC6-430D-8D07-4111B37E9104"
+  },
+  {
+    "device_id": "c9a81eeb-a031-46c3-80c6-ba96e33c5f15",
+    "host_name": "vm-ovm-oel5",
+    "serial_number": "VMware-42 1d 1b 7c 23 0b ba 17-6e 23 79 20 25 b2 a5 a2",
+    "manufacturer": "VMware, Inc.",
+    "model": "VMware Virtual Platform",
+    "last_scan": "27/03/2017 10:45:01",
+    "self": "http://vm-qase3-2k12/API/v1/devices/C9A81EEB-A031-46C3-80C6-BA96E33C5F15"
+  },
+  {
+    "device_id": "29059011-bae1-46dd-b40c-4d37943c81a8",
+    "host_name": "VM-WIN10-ENT",
+    "serial_number": "VMware-42 1d 5a 13 bb 58 33 ac-8f 0d c1 dc 7e 35 65 e1",
+    "manufacturer": "VMware, Inc.",
+    "model": "VMware Virtual Platform",
+    "last_scan": "27/03/2017 10:45:02",
+    "self": "http://vm-qase3-2k12/API/v1/devices/29059011-BAE1-46DD-B40C-4D37943C81A8"
+  },
+  {
+    "device_id": "e618a1a7-3399-4dde-999f-c9384ddc99e5",
+    "host_name": "bigdatalite",
+    "serial_number": "VMware-42 1d 6b a1 95 2d 4c 89-4c e6 30 0d d5 5a 03 a5",
+    "manufacturer": "VMware, Inc.",
+    "model": "VMware Virtual Platform",
+    "last_scan": "27/03/2017 10:45:02",
+    "self": "http://vm-qase3-2k12/API/v1/devices/E618A1A7-3399-4DDE-999F-C9384DDC99E5"
+  },
+  {
+    "device_id": "0d41e44e-5f0a-46bd-af65-154ac0730873",
+    "host_name": "vm-oel-12cmulti",
+    "manufacturer": "VMware, Inc.",
+    "model": "VMware Virtual Platform",
+    "last_scan": "27/03/2017 10:45:02",
+    "self": "http://vm-qase3-2k12/API/v1/devices/0D41E44E-5F0A-46BD-AF65-154AC0730873"
+  },
+  {
+    "device_id": "0f1b0f51-d7dd-4e54-b657-eb6ba879a2fd",
+    "host_name": "VM-IBM2-2K8",
+    "serial_number": "VMware-42 27 15 3c cf 4c e5 07-77 b0 8e b0 43 e2 31 6f",
+    "manufacturer": "VMware, Inc.",
+    "model": "VMware Virtual Platform",
+    "last_scan": "27/03/2017 10:45:03",
+    "self": "http://vm-qase3-2k12/API/v1/devices/0F1B0F51-D7DD-4E54-B657-EB6BA879A2FD"
+  },
+  {
+    "device_id": "eb144c19-5dab-4d65-8c4d-d5e136b977cb",
+    "host_name": "VM-2K332ENTSP1",
+    "serial_number": "VMware-42 1d 88 80 c4 6a 3e b8-82 5c 41 10 79 8e 67 04",
+    "manufacturer": "VMware, Inc.",
+    "model": "VMware Virtual Platform",
+    "last_scan": "27/03/2017 10:45:03",
+    "self": "http://vm-qase3-2k12/API/v1/devices/EB144C19-5DAB-4D65-8C4D-D5E136B977CB"
+  },
+  {
+    "device_id": "42c47d1c-7147-4385-9681-914f0e0fd35e",
+    "host_name": "vm-oel-12cmultipacks",
+    "manufacturer": "VMware, Inc.",
+    "model": "VMware Virtual Platform",
+    "last_scan": "27/03/2017 10:45:03",
+    "self": "http://vm-qase3-2k12/API/v1/devices/42C47D1C-7147-4385-9681-914F0E0FD35E"
+  },
+  {
+    "device_id": "fa2749a2-835b-4015-9779-cdaf6fdd3c94",
+    "host_name": "VM-DAIRIS-CENTOS",
+    "serial_number": "VMware-42 27 4c 55 8e 74 5d 91-ec 12 86 5d c1 c9 1f 94",
+    "manufacturer": "VMware, Inc.",
+    "model": "VMware Virtual Platform",
+    "last_scan": "27/03/2017 11:28:35",
+    "self": "http://vm-qase3-2k12/API/v1/devices/FA2749A2-835B-4015-9779-CDAF6FDD3C94"
+  },
+  {
+    "device_id": "71c88b32-3c37-40f0-9334-adbd51bd2863",
+    "host_name": "VM-OVM-SERVER",
+    "serial_number": "VMware-42 27 d0 95 38 af 2c 3c-c3 55 c9 87 65 ec 44 52",
+    "manufacturer": "VMware, Inc.",
+    "model": "VMware Virtual Platform",
+    "last_scan": "27/03/2017 10:45:04",
+    "self": "http://vm-qase3-2k12/API/v1/devices/71C88B32-3C37-40F0-9334-ADBD51BD2863"
+  },
+  {
+    "device_id": "56d2cbd4-5b6c-48d3-9ab8-3adeee2d3af2",
+    "host_name": "vm-dairis-rh-infos",
+    "serial_number": "VMware-42 27 10 ff cd 8c 4e 3e-34 96 47 37 fb 50 9a e9",
+    "manufacturer": "VMware, Inc.",
+    "model": "VMware Virtual Platform",
+    "last_scan": "27/03/2017 10:45:04",
+    "self": "http://vm-qase3-2k12/API/v1/devices/56D2CBD4-5B6C-48D3-9AB8-3ADEEE2D3AF2"
+  },
+  {
+    "device_id": "6d70cba9-1f22-461c-9326-bea3081871ff",
+    "host_name": "VM-ORA12C-2012",
+    "manufacturer": "VMware, Inc.",
+    "model": "VMware Virtual Platform",
+    "last_scan": "27/03/2017 10:45:04",
+    "self": "http://vm-qase3-2k12/API/v1/devices/6D70CBA9-1F22-461C-9326-BEA3081871FF"
+  },
+  {
+    "device_id": "fcf9e64b-a414-4bd1-ac69-894c97757771",
+    "host_name": "VM-ORA10GEXP-2K",
+    "serial_number": "VMware-42 07 38 e9 80 c7 d5 51-5f c0 e2 d1 94 d7 4e 63",
+    "manufacturer": "VMware, Inc.",
+    "model": "VMware Virtual Platform",
+    "last_scan": "27/03/2017 10:45:04",
+    "self": "http://vm-qase3-2k12/API/v1/devices/FCF9E64B-A414-4BD1-AC69-894C97757771"
+  },
+  {
+    "device_id": "60323ec5-c898-49e5-9500-ab531725da36",
+    "host_name": "VM-2K8-IAS",
+    "manufacturer": "VMware, Inc.",
+    "model": "VMware Virtual Platform",
+    "last_scan": "27/03/2017 10:45:04",
+    "self": "http://vm-qase3-2k12/API/v1/devices/60323EC5-C898-49E5-9500-AB531725DA36"
+  },
+  {
+    "device_id": "c158802b-ac54-4f19-a049-f02d6dbed84d",
+    "host_name": "VM-HYPERV-2K12R",
+    "serial_number": "VMware-42 37 24 9d 29 b6 bf df-df 30 06 45 01 4a 7d e1",
+    "manufacturer": "VMware, Inc.",
+    "model": "VMware Virtual Platform",
+    "last_scan": "27/03/2017 10:41:03",
+    "self": "http://vm-qase3-2k12/API/v1/devices/C158802B-AC54-4F19-A049-F02D6DBED84D"
+  },
+  {
+    "device_id": "2e39d76e-1539-46bb-803a-67bb31d27c49",
+    "host_name": "VM-QALAB2-2K12",
+    "serial_number": "VMware-42 1d 33 d1 26 e7 7c bc-da de 2f d8 c4 42 da a3",
+    "manufacturer": "VMware, Inc.",
+    "model": "VMware Virtual Platform",
+    "last_scan": "27/03/2017 10:45:05",
+    "self": "http://vm-qase3-2k12/API/v1/devices/2E39D76E-1539-46BB-803A-67BB31D27C49"
+  },
+  {
+    "device_id": "1387ba3c-cf28-4b89-a352-c597ab9d583e",
+    "host_name": "VM-DSQL-2K8",
+    "manufacturer": "VMware, Inc.",
+    "model": "VMware Virtual Platform",
+    "last_scan": "27/03/2017 10:41:44",
+    "self": "http://vm-qase3-2k12/API/v1/devices/1387BA3C-CF28-4B89-A352-C597AB9D583E"
+  },
+  {
+    "device_id": "a979e569-4bcc-4095-82bb-606dbc04a76c",
+    "host_name": "VM-DAIRIS-2K8A",
+    "serial_number": "VMware-42 27 38 46 68 de 6f 56-65 7f 47 7f 95 3c ee 20",
+    "manufacturer": "VMware, Inc.",
+    "model": "VMware Virtual Platform",
+    "last_scan": "27/03/2017 10:43:03",
+    "self": "http://vm-qase3-2k12/API/v1/devices/A979E569-4BCC-4095-82BB-606DBC04A76C"
+  },
+  {
+    "device_id": "350405a7-bb60-46f2-bf26-61ad17428131",
+    "host_name": "DELL7C5062",
+    "manufacturer": "Dell Inc.",
+    "last_scan": "27/03/2017 10:42:10",
+    "self": "http://vm-qase3-2k12/API/v1/devices/350405A7-BB60-46F2-BF26-61AD17428131"
+  },
+  {
+    "device_id": "b0634491-a810-46a6-9948-9ba3251d4b0e",
+    "host_name": "QA-PRINTERSNMP-2",
+    "manufacturer": "Dell Inc.",
+    "last_scan": "27/03/2017 10:42:13",
+    "self": "http://vm-qase3-2k12/API/v1/devices/B0634491-A810-46A6-9948-9BA3251D4B0E"
+  },
+  {
+    "device_id": "67a5048f-ac26-43a5-afc0-5c31ca4f77ca",
+    "host_name": "vm-vcs2-sles11",
+    "serial_number": "VMware-42 1d e4 20 cd 37 f9 ec-66 5a 42 d4 d9 aa 97 d5",
+    "manufacturer": "VMware, Inc.",
+    "model": "VMware Virtual Platform",
+    "last_scan": "27/03/2017 10:44:07",
+    "self": "http://vm-qase3-2k12/API/v1/devices/67A5048F-AC26-43A5-AFC0-5C31CA4F77CA"
+  },
+  {
+    "device_id": "7128d266-bbd1-493b-84cc-aef42b1c729e",
+    "host_name": "Cisco1900QA2",
+    "manufacturer": "Cisco",
+    "model": "Cisco Catalyst 1900",
+    "last_scan": "27/03/2017 10:43:37",
+    "self": "http://vm-qase3-2k12/API/v1/devices/7128D266-BBD1-493B-84CC-AEF42B1C729E"
+  },
+  {
+    "device_id": "361b94a3-27da-451f-afce-8ab98184353e",
+    "host_name": "VM-SQL16-2K12",
+    "serial_number": "VMware-42 1d 4e dc e0 41 50 d8-ef 5d 1a e0 67 07 4d ab",
+    "manufacturer": "VMware, Inc.",
+    "model": "VMware Virtual Platform",
+    "last_scan": "27/03/2017 10:47:37",
+    "self": "http://vm-qase3-2k12/API/v1/devices/361B94A3-27DA-451F-AFCE-8AB98184353E"
+  },
+  {
+    "device_id": "0539e4f8-6ee8-427e-a54c-0f5ad23d18fa",
+    "manufacturer": "Cisco",
+    "model": "Cisco Catalyst 1900",
+    "last_scan": "27/03/2017 10:43:57",
+    "self": "http://vm-qase3-2k12/API/v1/devices/0539E4F8-6EE8-427E-A54C-0F5AD23D18FA"
+  },
+  {
+    "device_id": "9f52cfea-3637-4967-9231-1d3ff3a98bca",
+    "host_name": "Cisco3600QA1",
+    "serial_number": "09920200",
+    "manufacturer": "Cisco",
+    "model": "C3640-I-M",
+    "last_scan": "27/03/2017 10:43:59",
+    "self": "http://vm-qase3-2k12/API/v1/devices/9F52CFEA-3637-4967-9231-1D3FF3A98BCA"
+  },
+  {
+    "device_id": "d29e2bbf-ad38-491e-be6c-5907554b1f01",
+    "host_name": "Cisco2900QA2",
+    "serial_number": "0x10",
+    "manufacturer": "Cisco",
+    "model": "C2900XL-C3H2S-M",
+    "last_scan": "27/03/2017 10:44:31",
+    "self": "http://vm-qase3-2k12/API/v1/devices/D29E2BBF-AD38-491E-BE6C-5907554B1F01"
+  },
+  {
+    "device_id": "eb2fb0ad-9a74-4110-8bcf-99b7c112d1c4",
+    "host_name": "Cisco2900QA3",
+    "serial_number": "FAB0447V07X",
+    "manufacturer": "Cisco",
+    "model": "C2900XL-C3H2S-M",
+    "last_scan": "27/03/2017 10:44:40",
+    "self": "http://vm-qase3-2k12/API/v1/devices/EB2FB0AD-9A74-4110-8BCF-99B7C112D1C4"
+  },
+  {
+    "device_id": "6d66e01b-68a2-4dae-b35a-8a783c70a7ff",
+    "host_name": "VM-WIN2K3-DB295",
+    "serial_number": "VMware-42 27 4d a9 32 1b dc 42-30 62 3d 4f be 3c ce 90",
+    "manufacturer": "VMware, Inc.",
+    "model": "VMware Virtual Platform",
+    "last_scan": "27/03/2017 10:45:04",
+    "self": "http://vm-qase3-2k12/API/v1/devices/6D66E01B-68A2-4DAE-B35A-8A783C70A7FF"
+  },
+  {
+    "device_id": "6552d1c4-7441-47a6-aaab-4d7cc050369a",
+    "host_name": "vm-informix-dap",
+    "serial_number": "VMware-42 1d 31 b5 f3 bb ed 2c-96 2c b1 18 51 02 04 e3",
+    "manufacturer": "VMware, Inc.",
+    "model": "VMware Virtual Platform",
+    "last_scan": "27/03/2017 10:53:50",
+    "self": "http://vm-qase3-2k12/API/v1/devices/6552D1C4-7441-47A6-AAAB-4D7CC050369A"
+  },
+  {
+    "device_id": "4cf2424a-3d3b-440a-af93-9f6a86a868e4",
+    "host_name": "VM-WIN2K3-DB291",
+    "serial_number": "VMware-42 27 ef 83 a2 c7 0c 0c-18 ea c5 8d d2 9e dc 38",
+    "manufacturer": "VMware, Inc.",
+    "model": "VMware Virtual Platform",
+    "last_scan": "27/03/2017 11:08:27",
+    "self": "http://vm-qase3-2k12/API/v1/devices/4CF2424A-3D3B-440A-AF93-9F6A86A868E4"
+  },
+  {
+    "device_id": "6de9da50-7116-4f23-b8cd-64b148346cd3",
+    "host_name": "vm-hugetns-ora",
+    "serial_number": "VMware-42 1d e9 10 c6 f5 4a 76-a7 12 b8 fe 5b 17 03 b7",
+    "manufacturer": "VMware, Inc.",
+    "model": "VMware Virtual Platform",
+    "last_scan": "27/03/2017 11:48:48",
+    "self": "http://vm-qase3-2k12/API/v1/devices/6DE9DA50-7116-4F23-B8CD-64B148346CD3"
+  }
+]
