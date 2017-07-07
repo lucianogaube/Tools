@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="background.js"></script>
+		<script src="clipboard.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="style.css">		
+    </head>
+    <body class="default">
+        <form id="addbookmark"  class="dark-matter ">
+		
+		<span>Project Type:</span><select id="projects">
+			  <option name="proj" value="IV">IV</option>
+			  <option name="proj" value="SN">SN</option>
+			  <option name="proj" value="HADM">HADM</option>			  
+			  <option name="proj" value="SPIKE">SPIKE</option>
+			  <option name="proj" value="IDEA">IDEA</option>
+			  <option name="proj" value="IS">IS</option>
+			  <option name="proj" value="V4F">V4F</option>
+			  <option name="proj" value="VR">VR</option>			  
+			  <option name="proj" value="ASURIONV4">ASURIONV4</option>
+			  <option name="proj" value="V3">V3</option>
+			  <option name="proj" value="POP">POP</option>			  
+			</select>
+			
+			<span>IV/CS/SN Number*:</span><input type="text" name="iv">
+			<div class="dark-matter checkboxes">
+            <input type="checkbox" name="t" id="QA-Prep" value="QA Prep" checked>QA Prep<br>
+			<input type="checkbox" name="t" id="QA-Exec" value="QA Exec" checked>QA Exec<br>
+			<input type="checkbox" name="t" id="Code-Review" value="Code Review" checked>Code Review<br>
+			<input type="checkbox" name="t" id="Show-And-Tell" value="Show And Tell" checked>Show And Tell<br>
+			<input type="checkbox" name="t" id="Unit-Tests" value="Unit Tests" checked>Unit Tests<br>
+			<input type="checkbox" name="t" id="Other" value="Other">Other*:<input type="text" id="otherTask">
+			<span>(* use ';' separator for multiple items)</span>
+			<br>
+			<!-- Target -->
+			</div>
+			
+			<span>Agile Team:</span><select id="teams">
+			  <option name="team" value=""></option>
+			  <option name="team" value="10201">Green Team</option>
+			  <option name="team" value="10202">Blue Team</option>
+			  <option name="team" value="10200">Red Team</option>
+			</select>
+			<br>
+
+			<input type="button" class="button" id="checkPage" value="Create Sub-Tasks">
+		
+<br>
+<br>
+
+<!-- Trigger -->
+<button class="btn button" data-clipboard-text="{panel:title=(i) *User Statement*}
+*AS* 
+*I WANT*
+*So THAT*
+{panel}
+{panel:title=(!) *Description* }
+(?)
+{panel}
+{panel:title=(!) *Acceptance Criteria*}
+|| ||Given||When||Outcome||
+|1|(?)|(?)|(?)|
+|2| | | |
+|3| | | |
+|4| | | |
+|5| | | |
+{panel}
+{panel:title=(i) *Scope*}
+||In Scope||Out of Scope||
+| | |
+| | |
+| | |
+{panel}
+----
+----
+----
+{panel:title=(!) *Implementation Details*}
+* (?)
+{panel}
+{panel:title=(i) *Adapter*}
+||Task||Strategy||Stage||Return||||
+| | | | |
+| | | | |
+{panel}
+{panel:title=(i) *Schema*}
+||Desired Value||Description||Location||Model||Property||
+| | | | | |
+| | | | | |
+| | | | | |
+| | | | | |
+| | | | | |
+{panel}">
+    Copy Template to Clipboard
+</button>
+
+        </form>
+    </body>
+</html>
