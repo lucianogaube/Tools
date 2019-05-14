@@ -1,11 +1,13 @@
 document.addEventListener('DOMContentLoaded', function() {
 	var clipboard = new Clipboard('.btn');
 	var clipboard2 = new Clipboard('.clip');
-	var checkPageButton = document.getElementById('checkPage');
+	var createButton = document.getElementById('checkPage');
 	var dropdownlist = document.getElementById("teams");
 	var dropdownTemplates = document.getElementById("templates");
 	var textToSpreadsheet = "";
+	var QATasks = new Set(["QA Prep", "QA Prep", "Show And Tell", "OWASP", "Unit Test Review"]);
 	
+	//Template button will change according to selection
 	dropdownTemplates.addEventListener('click', function() {
 		var template = dropdownTemplates.value;
 		document.getElementById("story").style.display = "none";
@@ -13,17 +15,8 @@ document.addEventListener('DOMContentLoaded', function() {
 		document.getElementById("cloudStory").style.display = "none";
 		document.getElementById("task").style.display = "none";
 		
-		if(template === "story"){
-			document.getElementById("story").style.display = "inline-block";
-		}
-		else if(template === "bug"){
-			document.getElementById("bug").style.display = "inline-block";
-		}
-		else if(template === "cloudStory"){
-			document.getElementById("cloudStory").style.display = "inline-block";
-		}
-		else if(template === "task"){
-			document.getElementById("task").style.display = "inline-block";
+		if(template != null){
+			document.getElementById(template).style.display = "inline-block";	
 		}
 	});
 	
@@ -32,57 +25,55 @@ document.addEventListener('DOMContentLoaded', function() {
 		var totaldev = 0;
 		var totalqa = 0;
 		
-		for(i=0;i<tasks.length;i++) 
-		{
-			if(tasks[i].checked)
-			{
-				var task = document.getElementsByName(tasks[i].value);
-				if(tasks[i].value == "Other")
+		tasks.forEach(task => {
+			if(task.checked){
+				var taskTime = document.getElementsByName(task.value); 
+				if(task.value == "Other")
 				{
 					other = document.getElementById("otherTask");
-					otherSubs = other.value.split(';');
-					for(k=0;k<otherSubs.length;k++)
+					otherSubs = other.value.split(';');          
+					otherSubs.forEach(other =>
 					{
-						if(otherSubs[k] != "")
+						if(other != "")
 						{
-							var temp = otherSubs[k].substring(otherSubs[k].indexOf("(") + 1, otherSubs[k].indexOf(")"));
+							var temp = getCustomTaskTime(other);
 							if(temp != "")
 							{
 								totaldev += parseFloat(temp);
 							}
 						}
-					}
-					continue;
+					});
+					return;
 				}
 				
-				var hours = task[0].value;			
-				if(hours != "")
-				{
-					if(isQaTask(tasks[i].value) == true)
-					{
+				var hours = taskTime[0].value;			
+				if(hours != ""){
+					if(isQaTask(task.value) == true){
 						totalqa += parseFloat(hours);
 					}
-					else
-					{
+					else{
 						totaldev += parseFloat(hours); 
 					}
 				}		
-			}						
-		}
+			}			
+		});
 		
 		parent = document.getElementsByName("iv");
-		textToSpreadsheet = "IV-" + parent[0].value + ";;;" + String(totaldev) + ";0.00;" + String(totalqa);
-		
-		checkPageButton.setAttribute("data-clipboard-text", textToSpreadsheet);
+		//Text to clipboard, can be used in spreadsheet later
+		textToSpreadsheet = "IV-" + parent[0].value + ";" + String(totaldev) + ";" + String(totalqa);		
+		createButton.setAttribute("data-clipboard-text", textToSpreadsheet);
+	}
+  
+	function getCustomTaskTime(taskName){
+		var res = taskName.match(/\(([0-9]\d+)\)/);
+		if(res === null) return ""
+
+		return res[1];
 	}
 	
 	function isQaTask(taskName){
-		var isQA = new Boolean(false);
-		if(taskName === "QA Prep" ||
-			taskName === "QA Exec" ||
-			taskName === "Show And Tell" ||
-			taskName === "OWASP" ||
-			taskName === "Unit Test Review"){
+		var isQA = false;
+		if(QATasks.has(taskName)){
 			isQA = true;
 		}
 		return isQA;	
@@ -97,116 +88,58 @@ document.addEventListener('DOMContentLoaded', function() {
 			}
 		}		
 	}
+  
+	function changeColorTeam(color){
+		removeColorClass(document.getElementById('checkPage'));			
+		removeColorClass(document.getElementById('myBar'));	
+
+		document.getElementById("checkPage").classList.add(color);			
+		document.getElementById("myBar").classList.add(color);	
+
+		elems = document.getElementsByName("temp");
+
+		[].forEach.call(elems, function(el) {
+		  removeColorClass(el);
+		  el.classList.add(color);
+		});		
+	}
 	
 	dropdownlist.addEventListener('click', function() {
 		var team = document.getElementById("teams").value;
 		var teams = document.getElementById("teams");
-		
-		if(team === "10202"){
-			if(teams.options[teams.selectedIndex].id === "LightBlue")
-			{
-				removeColorClass(document.getElementById('checkPage'));			
-				removeColorClass(document.getElementById('myBar'));	
-				
-				document.getElementById("checkPage").classList.add('lightBlueColor');			
-				document.getElementById("myBar").classList.add('lightBlueColor');	
-				
-				var elems = document.getElementsByName("temp");
-
-				[].forEach.call(elems, function(el) {
-					removeColorClass(el);
-					el.classList.add("lightBlueColor");
-				});		
-			}
-			else
-			{
-				removeColorClass(document.getElementById('checkPage'));			
-				removeColorClass(document.getElementById('myBar'));	
-				
-				document.getElementById("checkPage").classList.add('blueColor');			
-				document.getElementById("myBar").classList.add('blueColor');	
-				
-				var elems = document.getElementsByName("temp");
-
-				[].forEach.call(elems, function(el) {
-					removeColorClass(el);
-					el.classList.add("blueColor");
-			});		
-			}	
-		}
-		else if(team === "10201"){
-			removeColorClass(document.getElementById('checkPage'));			
-			removeColorClass(document.getElementById('myBar'));	
-			
-			document.getElementById("checkPage").classList.add('greenColor');			
-			document.getElementById("myBar").classList.add('greenColor');	
-			
-			var elems = document.getElementsByName("temp");
-
-			[].forEach.call(elems, function(el) {
-				removeColorClass(el);
-				el.classList.add("greenColor");
-			});			
-		}
-		else if(team === "10200"){
-			removeColorClass(document.getElementById('checkPage'));			
-			removeColorClass(document.getElementById('myBar'));	
-			
-			document.getElementById("checkPage").classList.add('redColor');			
-			document.getElementById("myBar").classList.add('redColor');	
-			
-			var elems = document.getElementsByName("temp");
-
-			[].forEach.call(elems, function(el) {
-				removeColorClass(el);
-				el.classList.add("redColor");
-			});				
-		}
-		else if(team === "12300"){
-			removeColorClass(document.getElementById('checkPage'));			
-			removeColorClass(document.getElementById('myBar'));	
-			
-			document.getElementById("checkPage").classList.add('orangeColor');			
-			document.getElementById("myBar").classList.add('orangeColor');	
-			
-			var elems = document.getElementsByName("temp");
-
-			[].forEach.call(elems, function(el) {
-				removeColorClass(el);
-				el.classList.add("orangeColor");
-			});					
-		}
-		else if(team === "10600"){
-			removeColorClass(document.getElementById('checkPage'));			
-			removeColorClass(document.getElementById('myBar'));	
-			
-			document.getElementById("checkPage").classList.add('yellowColor');			
-			document.getElementById("myBar").classList.add('yellowColor');	
-			
-			var elems = document.getElementsByName("temp");
-
-			[].forEach.call(elems, function(el) {
-				removeColorClass(el);
-				el.classList.add("yellowColor");
-			});					
-		}
-		else if(team === ""){
-			removeColorClass(document.getElementById('checkPage'));			
-			removeColorClass(document.getElementById('myBar'));	
-			
-			document.getElementById("checkPage").classList.add('defaultColor');			
-			document.getElementById("myBar").classList.add('defaultColor');	
-			
-			var elems = document.getElementsByName("temp");
-
-			[].forEach.call(elems, function(el) {
-				removeColorClass(el);
-				el.classList.add("yellowColor");
-			});		
+		var elems;
+    
+		switch(team){
+				case "10202":
+			  if(teams.options[teams.selectedIndex].id === "LightBlue")
+			  {
+				changeColorTeam("lightBlueColor");		
+			  }
+			  else
+			  {
+				changeColorTeam("blueColor");	
+			  }
+			  break;
+			case "10201":
+				changeColorTeam("greenColor");
+			  break;
+			case "10200":
+				changeColorTeam("redColor");
+			  break;
+			case "12300":
+				changeColorTeam("orangeColor");
+			  break;
+			case "10600":
+				changeColorTeam("yellowColor");
+			  break;
+			default:
+				changeColorTeam("defaultColor");
+			  break;
 		}
 	});
   
-	function move() {
+  //Progress bar
+	function InitProgressBar() {
 	var elem = document.getElementById("myBar");   
 	var width = 0;
 	var id = setInterval(frame, 80);
@@ -223,82 +156,69 @@ document.addEventListener('DOMContentLoaded', function() {
 		}		
 	}
 	
-	checkPageButton.addEventListener('click', function() {
+	createButton.addEventListener('click', function() {
 		calculateHours();
-		checkPageButton.disabled = true;
-		a = document.getElementsByName("t");
-		parent=document.getElementsByName("iv");
-		team=document.getElementById("teams");
-		proj=document.getElementById("projects");
-		selectedTeam = team.options[team.selectedIndex].value;
-		selectedTeamId = team.options[team.selectedIndex].id;
-		selectedProject = proj.options[proj.selectedIndex].value;
-		other = document.getElementById("otherTask");
-		otherSubs = other.value.split(';');
-		ivs = parent[0].value.split(';');
-		x=new XMLHttpRequest();
-		x.open("POST","https://iquate.atlassian.net/rest/api/2/issue/bulk",true);
-		x.setRequestHeader("Content-type","application/json");
-		r={"issueUpdates":[]};
+		createButton.disabled = true;
+		var subTasks = document.getElementsByName("t");
+		var parent = document.getElementsByName("iv");
+		var team = document.getElementById("teams");
+		var proj = document.getElementById("projects");
+		var selectedTeam = team.options[team.selectedIndex].value;
+		var selectedTeamId = team.options[team.selectedIndex].id;
+		var selectedProject = proj.options[proj.selectedIndex].value;
+		var other = document.getElementById("otherTask");
+		var otherSubs = other.value.split(';');
+		var stories = parent[0].value.split(';');
+		var request = new XMLHttpRequest();
+		request.open("POST","https://iquate.atlassian.net/rest/api/2/issue/bulk",true);
+		request.setRequestHeader("Content-type","application/json");
+		var resp = {"issueUpdates":[]};
 		
-		for(j=0;j<ivs.length;j++) 
-		{
-			if(ivs[j] != "")
-			{
-				for(i=0;i<a.length;i++) 
-				{
-					if(a[i].checked) 
-					{
-						if(a[i].value == "Other")
-						{
-							for(k=0;k<otherSubs.length;k++)
+		stories.forEach(story => {
+			if(story == "") return;
+			
+			subTasks.forEach(subTask => {
+				if(!subTask.checked) return;
+				
+				if(subTask.value == "Other"){
+					otherSubs.forEach(otherSub =>{
+						if(otherSub === "") return;
+						
+						resp.issueUpdates.push({
+							"fields":
 							{
-								if(otherSubs[k] != "")
-								{
-									r.issueUpdates.push
-									(
-										{
-											"fields":
-											{
-												"project":{"key":selectedProject},
-												"summary":otherSubs[k],
-												"issuetype":{"name":"Sub-task"},
-												"labels":[selectedTeamId],
-												"parent":{"key":selectedProject + "-" + ivs[j]},
-												"customfield_10200": {"id":selectedTeam}
-											}
-										}
-									);
-							}						
-								}							
-						}					
-						else 
-						{
-							var summary = document.getElementsByName(a[i].value)[0].value;
-							if(summary != ""){
-								summary = " (" + summary + ")";
+								"project":{"key":selectedProject},
+								"summary":otherSub,
+								"issuetype":{"name":"Sub-task"},
+								"labels":[selectedTeamId],
+								"parent":{"key":selectedProject + "-" + story},
+								"customfield_10200": {"id":selectedTeam}
 							}
-							r.issueUpdates.push
-							(
-								{
-									"fields":
-									{
-										"project":{"key":selectedProject},
-										"summary":a[i].value + summary,
-										"issuetype":{"name":"Sub-task"},
-										"labels":[a[i].id, selectedTeamId],
-										"parent":{"key":selectedProject + "-" + ivs[j]},
-										"customfield_10200": {"id":selectedTeam}
-									}
-								}
-							);
-						}				
+						});													
+					});							
+				}					
+				else {
+					var subTaskTime = document.getElementsByName(subTask.value)[0].value;
+					if(subTaskTime != ""){
+						subTaskTime = " (" + subTaskTime + ")";
 					}
-				}
-			}					
-		}
-		x.send(JSON.stringify(r));
-		move();
+					resp.issueUpdates.push({
+						"fields":
+						{
+							"project":{"key":selectedProject},
+							"summary":subTask.value + subTaskTime,
+							"issuetype":{"name":"Sub-task"},
+							"labels":[subTask.id, selectedTeamId],
+							"parent":{"key":selectedProject + "-" + story},
+							"customfield_10200": {"id":selectedTeam}
+						}
+					});
+				}				
+			});							
+		});
+		
+		request.send(JSON.stringify(resp));
+		InitProgressBar();
 	
   }, false);
 }, false);
