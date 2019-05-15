@@ -25,9 +25,13 @@ Projects, Agile Team and Templates:
 These are already provided, but it can be easily changed in the backgroung.js to suit your own environment.
 
 Time calculation:
+
 You can use the Textbox after each default sub-task to determine the hours you will spend on it.
+
 For CUSTOM SUB-TASKS the time can be added inside parenthesis ie. 'New custom sub (20)'
+
 These times are calculated when you click in the CREATE button, separating the QA time with the Dev Time, this can be easily changed as well.
+
 After clicking on the CREATE SUB-TASKS it will copy to your Clipboard the Story # + QA total time + Dev total time. ie 'IV-000,45,25'
 
 
